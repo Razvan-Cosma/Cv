@@ -910,7 +910,44 @@ body[data-theme="light"] .toggle-icon {
   filter: brightness(1.4) drop-shadow(0 0 8px rgba(0, 217, 255, 0.5));
 }
 
-/* Responsive */
+/* Language Toggle Button */
+.lang-toggle {
+  position: fixed;
+  top: 20px;
+  right: 90px;
+  z-index: 1000;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(124, 58, 237, 0.1);
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.3), inset 0 0 20px rgba(124, 58, 237, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.lang-toggle:hover {
+  background: var(--secondary);
+  color: var(--dark-bg);
+  transform: scale(1.15);
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.6), inset 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.lang-toggle:active {
+  transform: scale(0.95);
+}
+
+.lang-text {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
 @media (max-width: 1024px) {
   .content-grid {
     grid-template-columns: 1fr;

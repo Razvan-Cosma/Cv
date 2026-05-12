@@ -20,20 +20,25 @@
       <img class="toggle-icon" id="themeIcon" src="Img/Light/Dark/icons8-light.png" alt="Theme Toggle" />
     </button>
 
+    <!-- Language Toggle Button -->
+    <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+      <span class="lang-text" id="langText">EN</span>
+    </button>
+
     <!-- Header Section -->
     <header class="header">
       <div class="header-content">
         <div class="profile-image-wrapper">
           <div class="profile-image">
-            <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="Profile" />
+            <img src="./Img/Profile/Aero_Drone.png" alt="Profile" />
             <div class="glow-ring"></div>
           </div>
         </div>
         
         <div class="header-info">
           <h1 class="name">Razvan Cosma</h1>
-          <p class="title">Full Stack Developer</p>
-          <p class="subtitle">Building scalable solutions with modern technologies</p>
+          <p class="title" data-i18n="title-fullstack">Full Stack Developer</p>
+          <p class="subtitle" data-i18n="subtitle">Building scalable solutions with modern technologies</p>
         </div>
 
         <div class="contact-links">
@@ -41,27 +46,27 @@
             <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
             </svg>
-            <span>+40 754 934 708</span>
+            <span data-i18n="phone">+40 754 934 708</span>
           </a>
           <a href="mailto:razvancosma17@gmail.com" class="contact-btn">
             <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <rect x="2" y="4" width="20" height="16" rx="2"/>
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
             </svg>
-            <span>razvancosma17@gmail.com</span>
+            <span data-i18n="email">razvancosma17@gmail.com</span>
           </a>
           <a href="https://github.com/Razvan-Cosma" class="contact-btn" target="_blank">
             <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
             </svg>
-            <span>GitHub Profile</span>
+            <span data-i18n="github">GitHub Profile</span>
           </a>
           <div class="contact-btn location">
             <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
               <circle cx="12" cy="10" r="3"/>
             </svg>
-            <span>Cluj-Napoca, Romania</span>
+            <span data-i18n="location">Cluj-Napoca, Romania</span>
           </div>
         </div>
       </div>
@@ -71,12 +76,12 @@
     <main class="main-content">
       <!-- About Section -->
       <section class="section about-section">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title" data-i18n="about-title">About Me</h2>
         <div class="about-content">
-          <p class="about-text">
+          <p class="about-text" data-i18n="about-text-1">
             <strong>Passionate and hands-on developer</strong> transitioning into a Full Stack Manager role. I have a solid understanding of the software development lifecycle and a knack for problem-solving. Eager to apply technical skills and learn from experienced professionals to help guide projects and teams to success.
           </p>
-          <p class="about-text">
+          <p class="about-text" data-i18n="about-text-2">
             Enthusiastic about exploring new technologies and delivering robust, scalable solutions with the same focus and determination I bring to climbing mountains and fishing.
           </p>
         </div>
@@ -85,35 +90,35 @@
       <div class="content-grid">
         <!-- Experience Section -->
         <section class="section experience-section">
-          <h2 class="section-title">Experience</h2>
+          <h2 class="section-title" data-i18n="experience-title">Experience</h2>
           <div class="timeline">
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h3 class="job-title">Full Stack Developer</h3>
-                <p class="company-name">Private Projects</p>
-                <p class="job-date">Nov 2024 - Present</p>
-                <p class="job-desc">Results-driven Fullstack Developer proficient in the complete software development lifecycle. Eager to contribute to innovative projects and deliver robust, scalable solutions.</p>
+                <h3 class="job-title" data-i18n="job1-title">Full Stack Developer</h3>
+                <p class="company-name" data-i18n="job1-company">Private Projects</p>
+                <p class="job-date" data-i18n="job1-date">Nov 2024 - Present</p>
+                <p class="job-desc" data-i18n="job1-desc">Results-driven Fullstack Developer proficient in the complete software development lifecycle. Eager to contribute to innovative projects and deliver robust, scalable solutions.</p>
               </div>
             </div>
 
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h3 class="job-title">Full Stack Developer</h3>
-                <p class="company-name">Deco Impact</p>
-                <p class="job-date">Nov 2024 - Jan 2024</p>
-                <p class="job-desc">Built a complete website project from scratch, implementing modern web technologies and best practices for optimal performance and user experience.</p>
+                <h3 class="job-title" data-i18n="job2-title">Full Stack Developer</h3>
+                <p class="company-name" data-i18n="job2-company">Deco Impact</p>
+                <p class="job-date" data-i18n="job2-date">Nov 2024 - Jan 2024</p>
+                <p class="job-desc" data-i18n="job2-desc">Built a complete website project from scratch, implementing modern web technologies and best practices for optimal performance and user experience.</p>
               </div>
             </div>
 
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h3 class="job-title">Full Stack Developer</h3>
-                <p class="company-name">GOIT Developer</p>
-                <p class="job-date">Apr 2023 - Nov 2024</p>
-                <p class="job-desc">Developed multiple projects spanning HTML to React, with portfolio available on GitHub. Gained hands-on experience with modern frontend frameworks and development practices.</p>
+                <h3 class="job-title" data-i18n="job3-title">Full Stack Developer</h3>
+                <p class="company-name" data-i18n="job3-company">GOIT Developer</p>
+                <p class="job-date" data-i18n="job3-date">Apr 2023 - Nov 2024</p>
+                <p class="job-desc" data-i18n="job3-desc">Developed multiple projects spanning HTML to React, with portfolio available on GitHub. Gained hands-on experience with modern frontend frameworks and development practices.</p>
               </div>
             </div>
           </div>
@@ -121,13 +126,13 @@
 
         <!-- Skills Section -->
         <section class="section skills-section">
-          <h2 class="section-title">Skills</h2>
+          <h2 class="section-title" data-i18n="skills-title">Skills</h2>
           <div class="skills-grid">
             <div class="skill-card">
               <div class="skill-icon html-icon">
                 <img src="Img/Logos/icons8-html-96.png" alt="HTML" />
               </div>
-              <h4>HTML / HTML5</h4>
+              <h4 data-i18n="skill-html">HTML / HTML5</h4>
               <div class="skill-bar">
                 <div class="skill-fill" style="width: 80%"></div>
               </div>
@@ -138,7 +143,7 @@
               <div class="skill-icon css-icon">
                 <img src="Img/Logos/icons8-css-120.png" alt="CSS" />
               </div>
-              <h4>CSS / SCSS</h4>
+              <h4 data-i18n="skill-css">CSS / SCSS</h4>
               <div class="skill-bar">
                 <div class="skill-fill" style="width: 90%"></div>
               </div>
@@ -149,7 +154,7 @@
               <div class="skill-icon js-icon">
                 <img src="Img/Logos/icons8-javascript-96.png" alt="JavaScript" />
               </div>
-              <h4>Javascript</h4>
+              <h4 data-i18n="skill-js">Javascript</h4>
               <div class="skill-bar">
                 <div class="skill-fill" style="width: 75%"></div>
               </div>
@@ -160,7 +165,7 @@
               <div class="skill-icon react-icon">
                 <img src="Img/Logos/icons8-atom-96.png" alt="React" />
               </div>
-              <h4>React</h4>
+              <h4 data-i18n="skill-react">React</h4>
               <div class="skill-bar">
                 <div class="skill-fill" style="width: 70%"></div>
               </div>
@@ -171,7 +176,7 @@
               <div class="skill-icon node-icon">
                 <img src="Img/Logos/icons8-nodejs-120.png" alt="Node.js" />
               </div>
-              <h4>Node.js</h4>
+              <h4 data-i18n="skill-node">Node.js</h4>
               <div class="skill-bar">
                 <div class="skill-fill" style="width: 75%"></div>
               </div>
@@ -182,7 +187,7 @@
               <div class="skill-icon db-icon">
                 <img src="Img/Logos/icons8-database-96.png" alt="Databases" />
               </div>
-              <h4>Databases</h4>
+              <h4 data-i18n="skill-db">Databases</h4>
               <div class="skill-bar">
                 <div class="skill-fill" style="width: 65%"></div>
               </div>
@@ -193,7 +198,7 @@
               <div class="skill-icon security-icon">
                 <img src="Img/Logos/icons8-cyber-security-96.png" alt="Cyber Security" />
               </div>
-              <h4>Cyber Security</h4>
+              <h4 data-i18n="skill-security">Cyber Security</h4>
               <div class="skill-bar">
                 <div class="skill-fill" style="width: 60%"></div>
               </div>
@@ -204,7 +209,7 @@
               <div class="skill-icon design-icon">
                 <img src="Img/Logos/icons8-web-design-96.png" alt="Graphical Design" />
               </div>
-              <h4>Graphical Design</h4>
+              <h4 data-i18n="skill-design">Graphical Design</h4>
               <div class="skill-bar">
                 <div class="skill-fill" style="width: 70%"></div>
               </div>
@@ -216,11 +221,11 @@
 
       <!-- Projects Section -->
       <section class="section projects-section">
-        <h2 class="section-title">Notable Projects</h2>
+        <h2 class="section-title" data-i18n="projects-title">Notable Projects</h2>
         <div class="projects-grid">
           <div class="project-card">
             <div class="project-header">
-              <h3 class="project-title">RU Concept</h3>
+              <h3 class="project-title" data-i18n="project-rucon">RU Concept</h3>
               <a href="https://ruconcept.ro/" target="_blank" class="project-link" title="Visit Project">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
@@ -229,13 +234,55 @@
                 </svg>
               </a>
             </div>
-            <p class="project-description">
+            <p class="project-description" data-i18n="project-rucon-desc">
               A comprehensive personal library and concept repository showcasing creative design projects, architectural concepts, and digital solutions. Features modern UI/UX with interactive elements and responsive design.
             </p>
             <div class="project-tags">
-              <span class="project-tag">Web Design</span>
-              <span class="project-tag">UI/UX</span>
-              <span class="project-tag">HTML/CSS/JS</span>
+              <span class="project-tag" data-i18n="tag-webdesign">Web Design</span>
+              <span class="project-tag" data-i18n="tag-uiux">UI/UX</span>
+              <span class="project-tag" data-i18n="tag-htmlcss">HTML/CSS/JS</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title" data-i18n="project-h2go">H2Go Smart Flow</h3>
+              <a href="https://razvan-cosma.github.io/H2Go-Smart-Flow/index.html" target="_blank" class="project-link" title="Visit Project">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+            <p class="project-description" data-i18n="project-h2go-desc">
+              Smart water management application featuring real-time flow monitoring, predictive analytics, and IoT integration. Built with modern web technologies for responsive and interactive user experience with data visualization.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag" data-i18n="tag-react">React</span>
+              <span class="project-tag" data-i18n="tag-iot">IoT</span>
+              <span class="project-tag" data-i18n="tag-analytics">Data Analytics</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title" data-i18n="project-synapse">SynapseGov</h3>
+              <a href="https://synapsegov.netlify.app/" target="_blank" class="project-link" title="Visit Project">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+              </a>
+            </div>
+            <p class="project-description" data-i18n="project-synapse-desc">
+              Government services platform providing seamless digital access to public services. Features comprehensive user interface, secure authentication, and efficient service delivery with modern web standards.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag" data-i18n="tag-fullstack">Full Stack</span>
+              <span class="project-tag" data-i18n="tag-security">Security</span>
+              <span class="project-tag" data-i18n="tag-services">Public Services</span>
             </div>
           </div>
         </div>
@@ -243,19 +290,19 @@
 
       <!-- Hobbies Section -->
       <section class="section hobbies-section">
-        <h2 class="section-title">Interests & Hobbies</h2>
+        <h2 class="section-title" data-i18n="hobbies-title">Interests & Hobbies</h2>
         <div class="hobbies-content">
           <div class="hobby-item">
             <img src="Img/Pics/icons8-mountain-96.png" alt="Mountain Climbing" class="hobby-icon" />
-            <p><strong>Mountain Climbing:</strong> Approaching technical challenges with the same focus and determination I bring to conquering peaks.</p>
+            <p><strong data-i18n="hobby-mountain">Mountain Climbing:</strong> <span data-i18n="hobby-mountain-desc">Approaching technical challenges with the same focus and determination I bring to conquering peaks.</span></p>
           </div>
           <div class="hobby-item">
             <img src="Img/Pics/icons8-fishing-96.png" alt="Fishing" class="hobby-icon" />
-            <p><strong>Fishing:</strong> Enjoying the tranquility of nature while reflecting on problem-solving strategies.</p>
+            <p><strong data-i18n="hobby-fishing">Fishing:</strong> <span data-i18n="hobby-fishing-desc">Enjoying the tranquility of nature while reflecting on problem-solving strategies.</span></p>
           </div>
           <div class="hobby-item">
             <img src="Img/Pics/icons8-light-96.png" alt="Technology Innovation" class="hobby-icon" />
-            <p><strong>Technology Innovation:</strong> Constantly exploring emerging technologies to deliver cutting-edge, scalable solutions.</p>
+            <p><strong data-i18n="hobby-tech">Technology Innovation:</strong> <span data-i18n="hobby-tech-desc">Constantly exploring emerging technologies to deliver cutting-edge, scalable solutions.</span></p>
           </div>
         </div>
       </section>
@@ -280,7 +327,7 @@
             <span>LinkedIn</span>
           </a>
         </div>
-        <p class="footer-text">&copy; 2026 Xphob</p>
+        <p class="footer-text" data-i18n="footer-text">&copy; 2026 Xphob</p>
       </div>
     </footer>
   </div>
