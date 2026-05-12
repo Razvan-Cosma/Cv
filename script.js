@@ -14,7 +14,7 @@ function updateToggleIcon() {
   const icon = themeToggle.querySelector('.toggle-icon');
   icon.src = theme === 'dark' 
     ? 'Img/Light/Dark/icons8-light-96.png' 
-    : 'Img/Light/Dark/icons8-dark.gif';
+    : 'Img/Light/Dark/icons8-light.png';
   icon.alt = theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
 }
 
